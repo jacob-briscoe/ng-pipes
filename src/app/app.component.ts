@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-pipes';
+  myNumber: number = 15.5;
+  today = new Date();
+
 }

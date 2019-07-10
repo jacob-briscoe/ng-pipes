@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { DashyPipe } from './dashy.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashyPipe
   ],
   imports: [
     BrowserModule
